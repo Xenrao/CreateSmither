@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "minecraft:smithing_table"
+    }
+  },
+  "pattern": [
+    "B",
+    "C",
+    "R"
+  ],
+  "result": {
+    "id": "create_smither:mechanical_smither"
+  }
+}

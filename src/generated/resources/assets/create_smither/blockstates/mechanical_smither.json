@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,pointing=down": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 90
+    },
+    "facing=east,pointing=left": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 90
+    },
+    "facing=east,pointing=right": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 90
+    },
+    "facing=east,pointing=up": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 90
+    },
+    "facing=north,pointing=down": {
+      "model": "create_smither:block/mechanical_smither/block"
+    },
+    "facing=north,pointing=left": {
+      "model": "create_smither:block/mechanical_smither/block"
+    },
+    "facing=north,pointing=right": {
+      "model": "create_smither:block/mechanical_smither/block"
+    },
+    "facing=north,pointing=up": {
+      "model": "create_smither:block/mechanical_smither/block"
+    },
+    "facing=south,pointing=down": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 180
+    },
+    "facing=south,pointing=left": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 180
+    },
+    "facing=south,pointing=right": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 180
+    },
+    "facing=south,pointing=up": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 180
+    },
+    "facing=west,pointing=down": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 270
+    },
+    "facing=west,pointing=left": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 270
+    },
+    "facing=west,pointing=right": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 270
+    },
+    "facing=west,pointing=up": {
+      "model": "create_smither:block/mechanical_smither/block",
+      "y": 270
+    }
+  }
+}
