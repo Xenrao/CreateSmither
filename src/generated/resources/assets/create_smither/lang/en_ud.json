@@ -1,3 +1,14 @@
 {
-  "block.create_smither.mechanical_smither": "ɹǝɥʇıɯS ןɐɔıuɐɥɔǝW"
+  "block.create_smither.mechanical_smither": "ɹǝɥʇıɯS ןɐɔıuɐɥɔǝW",
+  "create_smither.ponder.mechanical_smither.header": "sǝdıɔǝᴚ buıɥʇıɯS buıʇɐɯoʇnⱯ",
+  "create_smither.ponder.mechanical_smither.text_1": "ǝdıɔǝɹ ǝןqɐ⟘ buıɥʇıɯS ʎuɐ ǝʇɐɯoʇnɐ uɐɔ ʍoɹ ɐ uı sɹǝɥʇıɯS ןɐɔıuɐɥɔǝW ǝǝɹɥ⟘",
+  "create_smither.ponder.mechanical_smither.text_2": "pǝbuɐɹɹɐ ǝq uɐɔ sɥʇɐd ,sɹǝɥʇıɯS ǝɥʇ 'ɥɔuǝɹM ɐ buıs∩",
+  "create_smither.ponder.mechanical_smither.text_3": "ǝǝɹɥʇ ɟo ǝuıן ʇɥbıɐɹʇs ɐ buıɯɹoɟ 'ʇıxǝ ǝuo oʇuı ǝbɹǝʌuoɔ oʇ ǝʌɐɥ sɥʇɐd ןןɐ 'dnʇǝs pıןɐʌ ɐ ɹoℲ",
+  "create_smither.ponder.mechanical_smither.text_4": "uıbǝq ןןıʍ ssǝɔoɹd buıɥʇıɯs ǝɥʇ 'ɯǝʇI uɐ spןoɥ ɹǝɥʇıɯS ʎɹǝʌǝ ǝɔuO",
+  "create_smither.ponder.mechanical_smither_shapes.header": "sʇnoʎɐꞀ ɹǝɥʇıɯS pıןɐΛ",
+  "create_smither.ponder.mechanical_smither_shapes.text_1": "ןɐɔıʇɹǝʌ ɹo ןɐʇuozıɹoɥ 'ǝǝɹɥʇ ɟo ǝuıן ʇɥbıɐɹʇs ʎuɐ uı pǝbuɐɹɹɐ ǝq uɐɔ sɹǝɥʇıɯS",
+  "create_smither.ponder.mechanical_smither_shapes.text_2": "ɹǝpɹo ʎuɐ uı pǝɔɐןd ǝq uɐɔ sɯǝʇI ǝɥʇ 'ǝuıן ʇɥbıɐɹʇs ɐ buoןⱯ",
+  "create_smither.ponder.mechanical_smither_shapes.text_3": "pǝʇɔǝظǝ ǝq ʇsnظ pןnoʍ sɯǝʇI ǝɥʇ 'ʞɹoʍ ʇou op sǝdɐɥs ʇuǝᗺ",
+  "create_smither.ponder.mechanical_smither_shapes.text_4": "sɹǝɥʇıɯS ǝǝɹɥʇ uɐɥʇ ǝɹoɯ ɥʇıʍ sdnʇǝs op ɹǝɥʇıǝN",
+  "itemGroup.create_smither": "ɹǝɥʇıɯS :ǝʇɐǝɹƆ"
 }

@@ -1,3 +1,14 @@
 {
-  "block.create_smither.mechanical_smither": "Mechanical Smither"
+  "block.create_smither.mechanical_smither": "Mechanical Smither",
+  "create_smither.ponder.mechanical_smither.header": "Automating Smithing Recipes",
+  "create_smither.ponder.mechanical_smither.text_1": "Three Mechanical Smithers in a row can automate any Smithing Table recipe",
+  "create_smither.ponder.mechanical_smither.text_2": "Using a Wrench, the Smithers' paths can be arranged",
+  "create_smither.ponder.mechanical_smither.text_3": "For a valid setup, all paths have to converge into one exit, forming a straight line of three",
+  "create_smither.ponder.mechanical_smither.text_4": "Once every Smither holds an Item, the smithing process will begin",
+  "create_smither.ponder.mechanical_smither_shapes.header": "Valid Smither Layouts",
+  "create_smither.ponder.mechanical_smither_shapes.text_1": "Smithers can be arranged in any straight line of three, horizontal or vertical",
+  "create_smither.ponder.mechanical_smither_shapes.text_2": "Along a straight line, the Items can be placed in any order",
+  "create_smither.ponder.mechanical_smither_shapes.text_3": "Bent shapes do not work, the Items would just be ejected",
+  "create_smither.ponder.mechanical_smither_shapes.text_4": "Neither do setups with more than three Smithers",
+  "itemGroup.create_smither": "Create: Smither"
 }

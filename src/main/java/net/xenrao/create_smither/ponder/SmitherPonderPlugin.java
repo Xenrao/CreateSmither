@@ -21,7 +21,8 @@ public class SmitherPonderPlugin implements PonderPlugin {
 		PonderSceneRegistrationHelper<ItemProviderEntry<?, ?>> HELPER = helper.withKeyFunction(RegistryEntry::getId);
 
 		HELPER.forComponents(CreateSmitherBlockRegistries.MECHANICAL_SMITHER)
-			.addStoryBoard("mechanical_smither/setup", SmitherScenes::setup);
+			.addStoryBoard("mechanical_smither/setup", SmitherScenes::setup)
+			.addStoryBoard("mechanical_smither/shapes", SmitherScenes::shapes);
 	}
 
 }

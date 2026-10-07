@@ -4,13 +4,13 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.item.ItemDescription;
 import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipModifier;
+import com.tterrag.registrate.providers.ProviderType;
 import net.createmod.catnip.lang.FontHelper;
+import net.createmod.ponder.foundation.PonderIndex;
 import net.neoforged.fml.config.ModConfig;
 import net.xenrao.create_smither.blocks.CreateSmitherBlockRegistries;
 import net.xenrao.create_smither.blocks.MechanicalSmitherBlockEntity;
-import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
+import net.xenrao.create_smither.ponder.SmitherPonderPlugin;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -22,7 +22,6 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(CreateSmither.MODID)
 public class CreateSmither {
     public static final String MODID = "create_smither";
-    public static final Logger LOGGER = LogUtils.getLogger();
 
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(CreateSmither.MODID)
             .setTooltipModifierFactory(item ->
@@ -32,7 +31,13 @@ public class CreateSmither {
 
     public CreateSmither(IEventBus modEventBus, ModContainer modContainer) {
         REGISTRATE.registerEventListeners(modEventBus);
+        REGISTRATE.addDataGenerator(ProviderType.LANG, provider -> {
+            PonderIndex.addPlugin(new SmitherPonderPlugin());
+            PonderIndex.getLangAccess().provideLang(MODID, provider::add);
+            provider.add("itemGroup.create_smither", "Create: Smither");
+        });
         CreateSmitherBlockRegistries.register();
+        CreateSmitherCreativeTab.TABS.register(modEventBus);
         modEventBus.addListener(MechanicalSmitherBlockEntity::registerCapabilities);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.SERVER, CreateSmitherConfig.SPEC);
