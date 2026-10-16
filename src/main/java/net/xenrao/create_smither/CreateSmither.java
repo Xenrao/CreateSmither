@@ -35,6 +35,7 @@ public class CreateSmither {
             PonderIndex.addPlugin(new SmitherPonderPlugin());
             PonderIndex.getLangAccess().provideLang(MODID, provider::add);
             provider.add("itemGroup.create_smither", "Create: Smither");
+            provider.add("create_smither.recipe.mechanical_smithing", "Mechanical Smithing");
         });
         CreateSmitherBlockRegistries.register();
         CreateSmitherCreativeTab.TABS.register(modEventBus);
