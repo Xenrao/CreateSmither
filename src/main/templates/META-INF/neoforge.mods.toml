@@ -96,7 +96,7 @@ IT'S TIME TO AUTOMATE SMITHING RECIPES BABY
 [[dependencies.${mod_id}]]
     modId="jei"
     type="optional"
-    versionRange="[19.21.0.247, 19.57.0.451)"
+    versionRange="[19.21.0.247, 19.64.0.999)"
     ordering="AFTER"
     side="CLIENT"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
